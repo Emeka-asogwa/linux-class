@@ -42,7 +42,7 @@ After installing vagrant, open `git bash` and type:
 `touch Vagrantfile`
 Open the `Vagrantfile` file create and paste below:
 
-
+```
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
@@ -74,7 +74,7 @@ Vagrant.configure("2") do |config|
     end
   end
 end
-
+```
 
 We will be working on during machines. The first machine (vm1) is an `ubuntu` machine, the second (vm2) is a `Red hat` machine while the third (vm3) is `Fedora 35`. 
 
